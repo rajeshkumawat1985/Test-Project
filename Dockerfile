@@ -13,5 +13,5 @@ RUN unzip brighton.zip
 RUN cp -rf brighton-html/* .&&\
     rm -rf brighton-html
 #Export the port 80
-EXPOSE 8091
+EXPOSE 8092
 CMD ["/usr/sbin/httpd", "D", "FOREGROUND"]
